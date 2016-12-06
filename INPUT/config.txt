@@ -1,0 +1,24 @@
+[MongoDBConnection]
+port = 27017
+host = 127.0.0.1
+db = 20161202
+
+[Collections]
+SearchPages = SearchPages
+UserHomePages = UserHomePages
+Nicks = Nicks
+UserRelationPages = UserRelationPages
+UserTimelinePages = UserTimelinePages
+UserRelations = UserRelations
+UserTimelines = UserTimelines
+SearchKeywords = SearchKeywords
+SearchWeibo = SearchWeibo
+
+[CrawlParameter]
+UserWeiboPages = 5
+KeywordWeiboPages = 5
+KeywordSleeptime = 20
+UserPagesSleeptime = 20
+UserinfoSleeptime = 15
+UserWeiboSleeptime = 20
+UserRelationSleeptime = 15
